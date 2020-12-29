@@ -1,25 +1,29 @@
 1. What is wrong with the following code? Fix all errors.
 Public class 1Lesson
 {
-    system.out.print(asdf)
+    System.out.print("asdf");
 }
 
 2.
-    a. What is the difference between System.out.print("text"); and System.out.println("text");
-    b. How do you print a quotation mark?
-    c. How do you print a backslash?
-    d. What does printing "\n" do?
-    e. What does // do?
+    a. What is the difference between System.out.print("text"); and System.out.println("text"); System.out.print("text"); only prints text while System.out.println("text"); prints text and creates a new line
+    b. How do you print a quotation mark? \"
+    c. How do you print a backslash? \\
+    d. What does printing "\n" do? creates a new line
+    e. What does // do? creates a comment
 
 3. Determine the output:
 System.out.print("qwerty");
 System.out.println("asdf");
-System.out.println("zxcv");
+System.out.println("zxcv"); 
 System.out.println();
 //System.out.println();
 System.out.println("//");
 //System.out.println("//");
 
+qwertyasdf
+zxcv
+
+//
 
 4. Create a program that prints the following:
        
@@ -28,3 +32,12 @@ JJJJJJJ    A     V       V    A    \
    J     AAAAA     V   V    AAAAA    \
    J    A     A     V V    A     A    \
 JJJJ   A       A     V    A       A    \
+
+Public class Problem4
+{
+    System.out.println("JJJJJJJ     A     V       V    A   \\");
+    System.out.println("   J       A A     V     V    A A   \\");
+    System.out.println("   J      AAAAA     V   V    AAAAA   \\");
+    System.out.println("   J     A     A     V V    A     A   \\");
+    System.out.println("JJJJ    A       A     V    A       A   \\");
+}
